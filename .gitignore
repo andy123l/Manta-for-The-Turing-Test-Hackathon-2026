@@ -1,0 +1,85 @@
+# ============================================
+# 🔴 CRITICAL: NEVER COMMIT THESE FILES
+# ============================================
+
+# Environment variables (contains private keys!)
+.env
+.env.local
+.env.production
+.env.*
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ============================================
+# 🟡 Build artifacts and caches
+# ============================================
+
+# Node.js
+node_modules/
+package-lock.json
+contracts/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Solidity build artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+
+# Logs
+*.log
+logs/
+ai-agent/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# 🟡 Runtime files
+# ============================================
+
+# State files
+state.json
+trades.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================
+# 📝 Keep these files
+# ============================================
+
+# Keep .env.example as template
+!.env.example
+
+# Keep README
+!README.md
+
+# Keep logo
+!manta_logo_final.jpg
+!manta_logo*.jpg
+SKILL.md

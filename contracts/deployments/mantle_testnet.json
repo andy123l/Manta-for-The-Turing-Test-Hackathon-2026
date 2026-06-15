@@ -1,0 +1,10 @@
+{
+  "network": "mantle_testnet",
+  "chainId": "5003",
+  "contracts": {
+    "TradingVault": "0x35ED8A35d7c3ad683Ff60BF120B56AEC4AF5B848",
+    "StrategyExecutor": "0x6A2b2387baD8200f50912739f5Af2485Cc9acDbb"
+  },
+  "deployer": "0xc0015f40E712416e2003633884B9820f678dfafB",
+  "timestamp": "2026-06-08T16:22:07.752Z"
+}
